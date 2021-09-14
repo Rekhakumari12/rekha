@@ -22,3 +22,9 @@ export const P = styled.p`
     line-height: 25px;
   }
 `
+export const HR = styled.hr`
+    height: 0px;
+    color: #ede9e9;
+    border: 1px solid #c0c0c0;
+    margin: 30px auto;
+`

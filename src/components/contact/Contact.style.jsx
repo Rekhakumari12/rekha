@@ -20,5 +20,10 @@ export const Layout = styled.section`
   i:hover{
     top:-10px;
   }
-
+  @media screen and (max-width:415px){
+    h1{  
+      font-size: 40px;
+      margin-bottom: 18px;
+    }
+  }
 `
