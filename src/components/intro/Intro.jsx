@@ -3,12 +3,17 @@ import React from 'react'
 import { Layout } from './intro.style'
 import { Typewriter } from 'react-simple-typewriter'
 import { NameStyle } from './intro.style'
+import Animation from './Animation'
+
 export default function Intro() {
   return (
+    
     <Layout>
+      <Animation/>
       <h1>
         <NameStyle className="span-title">Rekha Kumari</NameStyle>
         <br />
+        
         <span>I Like </span>
         <Typewriter
             words={['Coding.','Frontend Development.','Problem Solving.', 'Photography.', 'Books.']}

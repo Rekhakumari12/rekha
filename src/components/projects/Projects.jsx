@@ -13,6 +13,7 @@ import na from '../../images/na.png'
 import marvel from '../../images/marvel.png'
 import scroll from '../../images/scroll.png'
 import { Mt } from '../Common.style'
+import Particles from 'react-particles-js';
 export default function Projects() {
   const responsive = {
     0: { items: 1 },
@@ -112,7 +113,9 @@ const items = [
   ]
   return (
     <Layout id="projects">
+
       <Mt space={80}/>
+      
       <Row className="padding" sm={1}>
         <center><H1 color={`#fff`} size={50} className="mb-5">My Projects</H1></center>
         <AliceCarousel

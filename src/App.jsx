@@ -8,10 +8,12 @@ import Skills from './components/skills/Skills'
 import Quotes from './components/quotes/Quotes';
 import Coffeewithme from './components/contact/Coffeewithme';
 import Contact from './components/contact/Contact';
+import Particles from 'react-particles-js';
 function App() {
 
   return (
     <div className="App">
+      
       <Header/>
       <Intro/>
       <About/>
