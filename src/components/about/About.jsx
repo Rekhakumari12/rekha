@@ -1,9 +1,10 @@
 import React from 'react'
 import { Mt, H1, P} from '../Common.style.jsx'
 import { Layout } from './About.style'
-import { Row,Col,Container, Image } from 'react-bootstrap'
+import { Row,Col,Container} from 'react-bootstrap'
 import mypic from '../../images/mypic.jpeg'
 import Contactme from './Contactme.jsx'
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 export default function About() {
   return (
     <Layout id="about">
@@ -11,7 +12,7 @@ export default function About() {
         <Row>
           <Col md={4} sm={12} className="leftside">
             <Mt space={60}/>
-            <Image src={mypic}/>
+            <LazyLoadImage effect="blur" src={mypic} alt={"myImage"}/>
             <Mt space={10}/>
             <Contactme/>
           </Col>

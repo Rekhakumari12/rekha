@@ -4,8 +4,11 @@ import {Layout} from './Skill.style'
 import { Image } from 'react-bootstrap'
 import { P } from '../Common.style'
 import { HR } from '../Common.style'
+import {LazyLoadImage} from 'react-lazy-load-image-component'
 import style_component from '../../images/style_component.png'
+import uiux from '../../images/uiux.svg'
 import { H1, Mt } from '../Common.style'
+// import Resume from './Resume'
 export default function Skills() {
   return (
     <Layout id="skills">
@@ -22,7 +25,7 @@ export default function Skills() {
             <i className="devicon-react-original-wordmark colored"></i>
             <i className="devicon-redux-original colored"></i>
             <i className="devicon-git-plain colored"></i>
-            <Image src={style_component} style={{backgroundColor:"#3d3d3d"}} width="70"/>
+            <LazyLoadImage effect="blur" src={style_component} style={{backgroundColor:"#3d3d3d"}} width="70"/>
           </div>
         </div>
         <HR/>
@@ -31,7 +34,7 @@ export default function Skills() {
           <div className="past">
             <i className="devicon-nodejs-plain colored"></i>
             <i className="devicon-bootstrap-plain-wordmark colored"></i>
-            <Image src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" width="70"/>
+            <LazyLoadImage effect="blur" src={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg"} width="70"/>
             <i className="devicon-java-plain-wordmark colored"></i>
             <i className="devicon-mongodb-plain-wordmark colored"></i>
             <i className="devicon-express-original-wordmark colored"></i>
@@ -42,19 +45,13 @@ export default function Skills() {
           <H1 className="mb-3" weight={800} size={25} color={`#FF5756`}>Interest</H1>
           <div className="interest">
             <i className="devicon-sass-original colored"></i>
-            <P mb={1}>PWAs</P>
-            <P mb={1}>UI-UX</P>
-            <P mb={1}>ML</P>
+            <LazyLoadImage effect="blur" mb={1} src={"https://upload.wikimedia.org/wikipedia/commons/1/1f/PWA_logo.svg"} width="70"/>
+            <LazyLoadImage mb={1} src={uiux} width="80" style={{color:"pink"}}/>
           </div>
         </div>
         <HR/>
       </div>
-     
-      <div className="resume">
-        <center><H1 className="mb-4" size={32} weight={600}>Download my Resume</H1>
-          <a href={"https://drive.google.com/file/d/1VGUkplvPrV9ES4fgdR50gfJY1oXnDbRV/view?usp=sharing"}><i className="fas fa-cloud-download-alt"></i></a>
-        </center>
-      </div>
+      {/* <Resume/> */}
     </Layout>
   )
 }

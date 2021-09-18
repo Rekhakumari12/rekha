@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import { P } from '../Common.style'
 import { NameStyle } from '../intro/intro.style'
-import { Image } from 'react-bootstrap'
+import { LazyLoadImage } from 'react-lazy-load-image-component'
 import footer from '../../images/red.png'
 const Layout = styled.section`
 .sayhello{
@@ -41,7 +41,7 @@ export default function Contact() {
           <P size={15} color={`var(--para-color)`} mb={1}>Made with ❤️ in India</P>
         </div>
       </div>
-      <Image src={footer}/>
+      <LazyLoadImage effect="blur" src={footer}/>
     </Layout>
   )
 }

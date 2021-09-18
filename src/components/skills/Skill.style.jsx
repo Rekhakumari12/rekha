@@ -9,6 +9,9 @@ export const Layout = styled.section`
     color:#838383;
     margin-bottom: 3rem;
   }
+  img{
+    margin-bottom: 3rem;
+  }
   .resume i{
     font-size: 50px;
   }
@@ -35,7 +38,7 @@ export const Layout = styled.section`
     background-color:#5a5858;
   }
   span{
-    position: relative;
+    position: inherit;
     bottom: -27px;
     right: 57px;
     font-size: medium;

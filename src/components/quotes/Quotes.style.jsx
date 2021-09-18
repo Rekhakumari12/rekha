@@ -9,6 +9,9 @@ export const Layout = styled.section`
     text-align:center;
     padding: 2rem 5rem;
   }
+  .quote img{
+    border-radius: 50%;
+  }
   .alice-carousel{
     padding:0;
   }
