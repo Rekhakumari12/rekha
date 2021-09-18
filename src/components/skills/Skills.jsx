@@ -46,7 +46,7 @@ export default function Skills() {
           <div className="interest">
             <i className="devicon-sass-original colored"></i>
             <LazyLoadImage effect="blur" mb={1} src={"https://upload.wikimedia.org/wikipedia/commons/1/1f/PWA_logo.svg"} width="70"/>
-            <LazyLoadImage mb={1} src={uiux} width="80" style={{color:"pink"}}/>
+            <LazyLoadImage effect="blur" mb={1} src={uiux} width="80" style={{color:"pink"}}/>
           </div>
         </div>
         <HR/>
