@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/Rekha/static/css/main.351bb697.chunk.css",
-    "main.js": "/Rekha/static/js/main.01f57084.chunk.js",
-    "main.js.map": "/Rekha/static/js/main.01f57084.chunk.js.map",
+    "main.js": "/Rekha/static/js/main.6aac68dd.chunk.js",
+    "main.js.map": "/Rekha/static/js/main.6aac68dd.chunk.js.map",
     "runtime-main.js": "/Rekha/static/js/runtime-main.f4f74212.js",
     "runtime-main.js.map": "/Rekha/static/js/runtime-main.f4f74212.js.map",
     "static/css/2.3f6b8d95.chunk.css": "/Rekha/static/css/2.3f6b8d95.chunk.css",
-    "static/js/2.376150e0.chunk.js": "/Rekha/static/js/2.376150e0.chunk.js",
-    "static/js/2.376150e0.chunk.js.map": "/Rekha/static/js/2.376150e0.chunk.js.map",
+    "static/js/2.c7c3c338.chunk.js": "/Rekha/static/js/2.c7c3c338.chunk.js",
+    "static/js/2.c7c3c338.chunk.js.map": "/Rekha/static/js/2.c7c3c338.chunk.js.map",
     "index.html": "/Rekha/index.html",
     "static/css/2.3f6b8d95.chunk.css.map": "/Rekha/static/css/2.3f6b8d95.chunk.css.map",
     "static/css/main.351bb697.chunk.css.map": "/Rekha/static/css/main.351bb697.chunk.css.map",
-    "static/js/2.376150e0.chunk.js.LICENSE.txt": "/Rekha/static/js/2.376150e0.chunk.js.LICENSE.txt",
+    "static/js/2.c7c3c338.chunk.js.LICENSE.txt": "/Rekha/static/js/2.c7c3c338.chunk.js.LICENSE.txt",
     "static/media/bill-gates.4f713420.jpeg": "/Rekha/static/media/bill-gates.4f713420.jpeg",
     "static/media/google.3509ff96.png": "/Rekha/static/media/google.3509ff96.png",
     "static/media/img1.3d5b0694.jpeg": "/Rekha/static/media/img1.3d5b0694.jpeg",
@@ -36,8 +36,8 @@
   "entrypoints": [
     "static/js/runtime-main.f4f74212.js",
     "static/css/2.3f6b8d95.chunk.css",
-    "static/js/2.376150e0.chunk.js",
+    "static/js/2.c7c3c338.chunk.js",
     "static/css/main.351bb697.chunk.css",
-    "static/js/main.01f57084.chunk.js"
+    "static/js/main.6aac68dd.chunk.js"
   ]
 }
