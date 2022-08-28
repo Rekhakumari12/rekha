@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/rekha/static/css/main.351bb697.chunk.css",
-    "main.js": "/rekha/static/js/main.a0475c7e.chunk.js",
-    "main.js.map": "/rekha/static/js/main.a0475c7e.chunk.js.map",
+    "main.js": "/rekha/static/js/main.dad9196a.chunk.js",
+    "main.js.map": "/rekha/static/js/main.dad9196a.chunk.js.map",
     "runtime-main.js": "/rekha/static/js/runtime-main.f98f1840.js",
     "runtime-main.js.map": "/rekha/static/js/runtime-main.f98f1840.js.map",
     "static/css/2.3f6b8d95.chunk.css": "/rekha/static/css/2.3f6b8d95.chunk.css",
@@ -28,6 +28,7 @@
     "static/media/steve-jobs.b8076fbf.jpeg": "/rekha/static/media/steve-jobs.b8076fbf.jpeg",
     "static/media/style_component.186b514d.png": "/rekha/static/media/style_component.186b514d.png",
     "static/media/sundarp.c8bba9c8.jpeg": "/rekha/static/media/sundarp.c8bba9c8.jpeg",
+    "static/media/tip_calculator.8bc66ed8.png": "/rekha/static/media/tip_calculator.8bc66ed8.png",
     "static/media/todo.6c7ff994.png": "/rekha/static/media/todo.6c7ff994.png",
     "static/media/tv.9a68d2cd.png": "/rekha/static/media/tv.9a68d2cd.png",
     "static/media/uiux.b70808d9.svg": "/rekha/static/media/uiux.b70808d9.svg",
@@ -38,6 +39,6 @@
     "static/css/2.3f6b8d95.chunk.css",
     "static/js/2.e98eb986.chunk.js",
     "static/css/main.351bb697.chunk.css",
-    "static/js/main.a0475c7e.chunk.js"
+    "static/js/main.dad9196a.chunk.js"
   ]
 }
