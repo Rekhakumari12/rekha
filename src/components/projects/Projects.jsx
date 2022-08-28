@@ -14,6 +14,7 @@ import marvel from '../../images/marvel.png'
 import scroll from '../../images/scroll.png'
 import { Mt } from '../Common.style'
 import tip_calculator from '../../images/tip_calculator.png'
+import countdown_timer from '../../images/countdown_timer.png'
 import Particles from 'react-particles-js';
 export default function Projects() {
   const responsive = {
@@ -101,8 +102,16 @@ export default function Projects() {
       image={tip_calculator}
       title={`< Tip Calculator />`}
       text={`This is a longer card with supporting text below as a natural`}
-      tech={`Tech stack: HTML, Javascript, Materialize CSS library`}
-      info={[`A app for tip calculation between your friends, With a pretty user interface and classic design`]}
+      tech={`Tech stack: HTML, Javascript, Materialize CSS`}
+      info={[`A app for tip calculation between your friends, With a pretty user interface and classic design`, `Features: Makes it easier to divide the money across people.`]}
+      link={`https://rekhakumari12.github.io/tip-calculator.github.io/`}
+    />,
+    <CardComponent
+      image={countdown_timer}
+      title={`< Countdown timer />`}
+      text={`This is a longer card with supporting text below as a natural`}
+      tech={`Tech stack: HTML, Javascript, CSS`}
+      info={[`A app for displaying count down of time`, `Features: User-friendly timer feature with the ability to enter day, month, and year`]}
       link={`https://rekhakumari12.github.io/tip-calculator.github.io/`}
     />
   ];
