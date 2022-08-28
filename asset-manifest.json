@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/rekha/static/css/main.351bb697.chunk.css",
-    "main.js": "/rekha/static/js/main.dad9196a.chunk.js",
-    "main.js.map": "/rekha/static/js/main.dad9196a.chunk.js.map",
+    "main.js": "/rekha/static/js/main.1b8b4e87.chunk.js",
+    "main.js.map": "/rekha/static/js/main.1b8b4e87.chunk.js.map",
     "runtime-main.js": "/rekha/static/js/runtime-main.f98f1840.js",
     "runtime-main.js.map": "/rekha/static/js/runtime-main.f98f1840.js.map",
     "static/css/2.3f6b8d95.chunk.css": "/rekha/static/css/2.3f6b8d95.chunk.css",
@@ -13,6 +13,7 @@
     "static/css/main.351bb697.chunk.css.map": "/rekha/static/css/main.351bb697.chunk.css.map",
     "static/js/2.e98eb986.chunk.js.LICENSE.txt": "/rekha/static/js/2.e98eb986.chunk.js.LICENSE.txt",
     "static/media/bill-gates.4f713420.jpeg": "/rekha/static/media/bill-gates.4f713420.jpeg",
+    "static/media/countdown_timer.a02be9f8.png": "/rekha/static/media/countdown_timer.a02be9f8.png",
     "static/media/google.3509ff96.png": "/rekha/static/media/google.3509ff96.png",
     "static/media/img1.3d5b0694.jpeg": "/rekha/static/media/img1.3d5b0694.jpeg",
     "static/media/img2.c9f1a2f6.jpg": "/rekha/static/media/img2.c9f1a2f6.jpg",
@@ -39,6 +40,6 @@
     "static/css/2.3f6b8d95.chunk.css",
     "static/js/2.e98eb986.chunk.js",
     "static/css/main.351bb697.chunk.css",
-    "static/js/main.dad9196a.chunk.js"
+    "static/js/main.1b8b4e87.chunk.js"
   ]
 }
